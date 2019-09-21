@@ -1,0 +1,34 @@
+section {
+    align: left;
+    padding-left: 10px;
+}
+header {
+    align: left;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+img {
+    max-height: 150px;
+    max-width: 150px;
+    padding-left: 10px;
+}
+ol{
+    padding-top:100px;
+}
+tr.items td{
+    border-bottom:1pt;
+}
+
+#personal_details {
+    font-family: Verdana;
+    display: inline;
+    list-style-type: none;
+}
+#average_grade {
+    padding-top: 20px;
+    color: 	#960018;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+
+}
