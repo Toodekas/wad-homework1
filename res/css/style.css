@@ -1,16 +1,50 @@
+
+body {	
+	width: 400px;
+	margin: 0 auto 0 auto;
+}
+.mainCard {
+	background-color: #EAEDED;
+	border-width: 1px;
+	border-color: "blue";
+	border-style: solid;
+}
 section {
     align: left;
-    padding-left: 10px;
+    padding-left: 20px
 }
+section h1 {
+	text-align: left;
+	display: inline-block;
+	border: 0px;
+	border-bottom: 2px;
+	border-style: solid;
+}
+/* no workerino please fixerino later
+section tr {
+	border: 0px;
+	border-bottom: 2px;
+	border-color: #000000;
+	border-style: solid;
+}
+*/
 header {
-    align: left;
+	display: block;
+    text-align: center;
     padding-left: 10px;
     padding-bottom: 15px;
+	padding-top: 5px;
+	font-size: 24px;
 }
 img {
     max-height: 150px;
     max-width: 150px;
-    padding-left: 10px;
+    display: block;
+	margin: 0 auto 0 auto;
+}
+/* paragraphs that come immediately after an image are bold, both elements are the children of same parent */
+img + p {
+	font-style: bold;
 }
 ol{
     padding-top:100px;
@@ -18,7 +52,25 @@ ol{
 tr.items td{
     border-bottom:1pt;
 }
-
+footer ul {
+	display: block;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+footer ul > li {
+	display: inline;
+	
+}
+footer ul li a {
+	text-decoration: none;
+	color: "black";
+}
+div ~ ul {
+	background-color: yellow;
+}
 #personal_details {
     font-family: Verdana;
     display: inline;
